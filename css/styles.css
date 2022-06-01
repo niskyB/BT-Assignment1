@@ -39,11 +39,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar-dark {
@@ -55,6 +55,11 @@ body {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
+}
+
+.collapsed {
+  color: black;
+  cursor: pointer;
 }
 
 .carousel {
@@ -94,4 +99,5 @@ body {
 .modal .modal-content {
   background-color: #d1c4e9;
 }
+
 /*# sourceMappingURL=styles.css.map */

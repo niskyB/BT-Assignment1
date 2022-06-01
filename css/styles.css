@@ -66,11 +66,11 @@ body {
 }
 
 .carousel .carousel-item img {
-  width: 100%;
-  position: absolute;
+  width: 80%;
+  margin: auto;
   top: 0;
   left: 0;
-  min-height: 100%;
+  min-height: 300px;
 }
 
 #carouselButton {

@@ -44,6 +44,20 @@ body {
   color: floralwhite;
 }
 
+.carousel {
+  background: #512da8;
+}
+
+.carousel-item {
+  height: 900px;
+}
+
+.carousel-item img {
+  width: 80%;
+  min-height: 100%;
+  margin: auto;
+}
+
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;

@@ -1,61 +1,53 @@
-body {
-  padding: 50px 0 0 0;
-  z-index: 0;
-}
-
-.navbar-dark {
-  background-color: #512DA8;
-}
-
-.bg-purple {
-  background-color: purple;
-}
-
-.bg-purple-300 {
-  background-color: rgba(211, 4, 211, 0.493);
-}
-
-.text-white {
-  color: white;
-}
-
 .row-header {
   margin: 0px auto;
-  padding: 0px;
+  padding: 0px 0px;
 }
 
 .row-content {
   margin: 0px auto;
-  padding: 50px 0px 50px 0px;
-  border-bottom: 1px ridge;
+  padding: 50px 0px;
+  border-bottom: 1 ridge;
   min-height: 400px;
 }
 
 .footer {
-  background: #d1c4e9;
+  background-color: #d1c4e9;
   margin: 0px auto;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px;
 }
 
 .jumbotron {
-  padding: 70px 30px 70px 30px;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding: 70px 30px;
   background: #9575cd;
   color: floralwhite;
 }
 
-.carousel {
-  background: #512da8;
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
 }
 
-.carousel-item {
-  height: 900px;
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
 
-.carousel-item img {
-  width: 80%;
-  min-height: 100%;
-  margin: auto;
+.reserve {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-dark {
+  background-color: #512da8;
 }
 
 .tab-content {
@@ -65,10 +57,20 @@ body {
   padding: 10px;
 }
 
-.reserve {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.carousel {
+  background: #512da8;
+}
+
+.carousel .carousel-item {
+  height: 700px;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
 }
 
 #carouselButton {
@@ -76,8 +78,20 @@ body {
   z-index: 1;
 }
 
-address {
-  font-size: 80%;
-  margin: 0px;
-  color: #0f0f0f;
+.modal .modal-header {
+  background-color: #512da8;
+  color: floralwhite;
 }
+
+.modal .modal-header .close {
+  color: floralwhite;
+}
+
+.modal .modal-body {
+  background-color: #d1c4e9;
+}
+
+.modal .modal-content {
+  background-color: #d1c4e9;
+}
+/*# sourceMappingURL=styles.css.map */

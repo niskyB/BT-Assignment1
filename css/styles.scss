@@ -66,11 +66,10 @@ body {
     height: $carousel-item-height;
     img {
       width: 80%;
-      // position: absolute;
       margin: auto;
       top: 0;
       left: 0;
-      min-height: 300px;
+      min-height: 100%;
     }
   }
 }

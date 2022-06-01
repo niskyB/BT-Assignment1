@@ -39,7 +39,7 @@ body {
 
 .jumbotron {
   padding: 70px 30px 70px 30px;
-  margin: 0px auto;
+  margin: 0 auto;
   background: #9575cd;
   color: floralwhite;
 }
@@ -49,6 +49,12 @@ body {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
+}
+
+.reserve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 address {
